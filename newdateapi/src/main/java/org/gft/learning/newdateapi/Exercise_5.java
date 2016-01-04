@@ -21,14 +21,9 @@ public class Exercise_5 {
 		newAPI();
 	}
 
-	private static void oldAPI() {
-	     //Date will return local time in Java  
+	private static void oldAPI() { 
 	     Date localTime = new Date(); 
-	    
-	     //creating DateFormat for converting time from local timezone to GMT
 	     DateFormat converter = new SimpleDateFormat("dd/MM/yyyy:HH:mm:ss");
-	    
-	     //getting GMT timezone, you can get any timezone e.g. UTC
 	     converter.setTimeZone(TimeZone.getTimeZone("GMT"));
 	    
 	     System.out.println("local time : " + localTime);;
@@ -44,5 +39,6 @@ public class Exercise_5 {
 		
 		System.out.println("Current date and time in a particular timezone : " + localDateAndTime);	
 		System.out.println("Current date and time in a particular timezone : " + dateAndTimeInSpain);		
+
 	}
 }

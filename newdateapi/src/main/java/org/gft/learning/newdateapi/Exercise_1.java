@@ -8,20 +8,20 @@ import java.util.Date;
  * 
  * @author naho
  *
- * 1. Get a particular date
- * 2. Format output
+ *         1. Get a particular date <br>
+ *         2. Format output
  * 
  */
 public class Exercise_1 {
 	public static void main(String[] args) {
-		oldAPI();		
+		oldAPI();
 		newAPI();
 	}
 
 	private static void oldAPI() {
-		Date dateOfBirth = new Date(90, 7, 2);		
+		Date dateOfBirth = new Date(90, 7, 2);
 		System.out.println("Your Date of birth is : " + dateOfBirth);
-		
+
 		Calendar calendar = Calendar.getInstance();
 		calendar.set(1990, 7, 2);
 		dateOfBirth = calendar.getTime();
@@ -30,10 +30,9 @@ public class Exercise_1 {
 
 	private static void newAPI() {
 		// 1. Get a particular date
-		LocalDate dateOfBirth = LocalDate.of(1990, 8, 2); 
-		
-		System.out.println("Your Date of birth is : " + dateOfBirth);	
-		
+		LocalDate dateOfBirth = LocalDate.of(1990, 8, 2);
+
+		System.out.println("Your Date of birth is : " + dateOfBirth);
 
 	}
 }
