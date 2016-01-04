@@ -9,25 +9,25 @@ import java.util.Locale;
  * 
  * @author naho
  *
- * Formatting dates
+ *         Format current date
  * 
  */
 public class Exercise_4 {
 	public static void main(String[] args) {
-		oldAPI();		
+		oldAPI();
 		newAPI();
 	}
 
 	private static void oldAPI() {
-	
+
 	}
 
 	private static void newAPI() {
 		LocalDateTime todayDateTime = LocalDateTime.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
-		String formattedTodayDateTime = formatter.format(todayDateTime);		
+		String formattedTodayDateTime = formatter.format(todayDateTime);
 		System.out.println("Today is : " + formattedTodayDateTime);
-		
+
 		String todayDateTimeUKLocaleFormatted = formatter.withLocale(Locale.UK).format(todayDateTime);
 		System.out.println("Today is : " + todayDateTimeUKLocaleFormatted);
 
