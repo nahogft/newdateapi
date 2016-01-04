@@ -26,8 +26,7 @@ public class Exercise_5 {
 		DateFormat converter = new SimpleDateFormat("dd/MM/yyyy:HH:mm:ss");
 		converter.setTimeZone(TimeZone.getTimeZone("GMT"));
 
-		System.out.println("local time : " + localTime);
-		;
+		System.out.println("local time : " + localTime);		
 		System.out.println("time in GMT : " + converter.format(localTime));
 
 	}
