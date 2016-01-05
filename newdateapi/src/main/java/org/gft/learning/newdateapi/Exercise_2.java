@@ -9,7 +9,7 @@ import java.util.Date;
  * 
  * @author naho
  *
- *         Calculate number of days between two dates new Java 8 old API
+ * Calculate number of days between two dates
  * 
  */
 public class Exercise_2 {
@@ -21,6 +21,7 @@ public class Exercise_2 {
 	}
 
 	private static void oldAPI() {
+		System.out.println("Old Date and Time API");
 		Calendar calendar = Calendar.getInstance();
 		Date today = calendar.getTime();
 		calendar.add(Calendar.DATE, -1);
@@ -34,6 +35,7 @@ public class Exercise_2 {
 	}
 
 	private static void newAPI() {
+		System.out.println("\nNew Date and Time API");
 		LocalDate today = LocalDate.now();
 		LocalDate yesterday = today.minusDays(1);
 

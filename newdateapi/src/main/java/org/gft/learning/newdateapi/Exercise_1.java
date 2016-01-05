@@ -8,7 +8,7 @@ import java.util.Date;
  * 
  * @author naho
  *
- *         Get a particular date
+ * Get a particular date
  * 
  */
 public class Exercise_1 {
@@ -18,6 +18,7 @@ public class Exercise_1 {
 	}
 
 	private static void oldAPI() {
+		System.out.println("Old Date and Time API");
 		Date dateOfBirth = new Date(90, 7, 2);
 		System.out.println("Your Date of birth is : " + dateOfBirth);
 
@@ -28,6 +29,7 @@ public class Exercise_1 {
 	}
 
 	private static void newAPI() {
+		System.out.println("\nNew Date and Time API");
 		LocalDate dateOfBirth = LocalDate.of(1990, 8, 2);
 
 		System.out.println("Your Date of birth is : " + dateOfBirth);

@@ -9,7 +9,7 @@ import java.util.Calendar;
  * 
  * @author naho
  *
- *         Calculate the second Saturday of current month
+ * Calculate the second Saturday of current month
  * 
  */
 public class Exercise_3 {
@@ -19,6 +19,7 @@ public class Exercise_3 {
 	}
 
 	private static void oldAPI() {
+		System.out.println("Old Date and Time API");
 		Calendar calendar = Calendar.getInstance();
 		calendar.set(Calendar.DAY_OF_WEEK, Calendar.SATURDAY);
 		calendar.set(Calendar.DAY_OF_WEEK_IN_MONTH, 2);
@@ -27,6 +28,7 @@ public class Exercise_3 {
 	}
 
 	private static void newAPI() {
+		System.out.println("\nNew Date and Time API");
 		LocalDate today = LocalDate.now();
 		LocalDate secondSaturdayOfThisMonth = today.with(TemporalAdjusters.dayOfWeekInMonth(2, DayOfWeek.SATURDAY));
 
