@@ -1,4 +1,4 @@
-package org.gft.learning.newdateapi;
+package org.gft.learning.newdateapi.templates;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -27,12 +27,9 @@ public class Exercise_3 {
 		System.out.println(calendar.getTime());
 	}
 
+	// TODO
 	private static void newAPI() {
-		System.out.println("\nNew Date and Time API");
-		LocalDate today = LocalDate.now();
-		LocalDate secondSaturdayOfThisMonth = today.with(TemporalAdjusters.dayOfWeekInMonth(2, DayOfWeek.SATURDAY));
-
-		System.out.println(secondSaturdayOfThisMonth);
+		
 	}
 
 }

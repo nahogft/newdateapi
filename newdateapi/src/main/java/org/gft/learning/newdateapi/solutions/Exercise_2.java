@@ -1,4 +1,4 @@
-package org.gft.learning.newdateapi;
+package org.gft.learning.newdateapi.solutions;
 
 import java.time.LocalDate;
 import java.time.Period;
