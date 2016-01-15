@@ -1,9 +1,6 @@
 package org.gft.learning.newdateapi.templates;
 
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
 import java.util.Date;
 import java.util.Locale;
 
@@ -11,7 +8,7 @@ import java.util.Locale;
  * 
  * @author naho
  *
- * Format current date
+ * Format current date by means of the new Date API
  * 
  */
 public class Exercise_4 {

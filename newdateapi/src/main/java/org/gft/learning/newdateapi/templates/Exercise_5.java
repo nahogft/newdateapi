@@ -2,9 +2,6 @@ package org.gft.learning.newdateapi.templates;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.Date;
 import java.util.TimeZone;
 
@@ -12,7 +9,7 @@ import java.util.TimeZone;
  * 
  * @author naho
  *
- * Date and time with timezone
+ * Date and time with timezone by means of the new Date API
  * 
  */
 public class Exercise_5 {

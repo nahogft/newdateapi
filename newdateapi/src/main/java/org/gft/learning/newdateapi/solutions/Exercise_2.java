@@ -9,7 +9,7 @@ import java.util.Date;
  * 
  * @author naho
  *
- * Calculate number of days between two dates
+ * Calculate number of days between two dates by means of the new Date API
  * 
  */
 public class Exercise_2 {

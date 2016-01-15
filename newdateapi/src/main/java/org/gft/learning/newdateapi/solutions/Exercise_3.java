@@ -9,7 +9,7 @@ import java.util.Calendar;
  * 
  * @author naho
  *
- * Calculate the second Saturday of current month
+ * Calculate the second Saturday of current month by means of the new Date API
  * 
  */
 public class Exercise_3 {

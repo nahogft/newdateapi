@@ -12,7 +12,7 @@ import java.util.TimeZone;
  * 
  * @author naho
  *
- * Date and time with timezone
+ * Date and time with timezone by means of the new Date API
  * 
  */
 public class Exercise_5 {

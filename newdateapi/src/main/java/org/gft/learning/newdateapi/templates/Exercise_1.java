@@ -1,6 +1,5 @@
 package org.gft.learning.newdateapi.templates;
 
-import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -8,7 +7,7 @@ import java.util.Date;
  * 
  * @author naho
  *
- * Get a particular date
+ * Get a particular date by means of the new Date API
  * 
  */
 public class Exercise_1 {

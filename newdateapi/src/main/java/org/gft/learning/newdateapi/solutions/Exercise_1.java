@@ -8,7 +8,7 @@ import java.util.Date;
  * 
  * @author naho
  *
- * Get a particular date
+ * Get a particular date by means of the new Date API
  * 
  */
 public class Exercise_1 {

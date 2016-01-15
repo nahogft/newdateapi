@@ -11,7 +11,7 @@ import java.util.Locale;
  * 
  * @author naho
  *
- * Format current date
+ * Format current date by means of the new Date API
  * 
  */
 public class Exercise_4 {

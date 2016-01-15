@@ -1,9 +1,5 @@
 package org.gft.learning.newdateapi.templates;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;
@@ -13,9 +9,9 @@ import java.util.TimeZone;
  * @author naho
  *
  * Interoperability with Legacy Code <br>
- * 1. Convert java.util.Date to java.time.LocalDate/LocalDateTime <br>
- * 2. Convert java.util.TimeZone to java.time.ZoneId <br>
- * 3. Convert java.util.Calendar to java.time.ZonedDateTime <br>
+ * 6.1. Convert java.util.Date to java.time.LocalDate/LocalDateTime <br>
+ * 6.2. Convert java.util.TimeZone to java.time.ZoneId <br>
+ * 6.3. Convert java.util.Calendar to java.time.ZonedDateTime <br>
  * 
  */
 public class Exercise_6 {

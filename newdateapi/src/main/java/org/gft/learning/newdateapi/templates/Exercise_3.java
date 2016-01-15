@@ -1,15 +1,12 @@
 package org.gft.learning.newdateapi.templates;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.temporal.TemporalAdjusters;
 import java.util.Calendar;
 
 /**
  * 
  * @author naho
  *
- * Calculate the second Saturday of current month
+ * Calculate the second Saturday of current month by means of the new Date API
  * 
  */
 public class Exercise_3 {
