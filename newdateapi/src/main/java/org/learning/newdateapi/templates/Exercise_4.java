@@ -1,9 +1,6 @@
-package org.gft.learning.newdateapi.solutions;
+package org.learning.newdateapi.templates;
 
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
 import java.util.Date;
 import java.util.Locale;
 
@@ -32,15 +29,8 @@ public class Exercise_4 {
 
 	}
 
+	// TODO
 	private static void newAPI() {
-		System.out.println("\nNew Date and Time API");
-		LocalDateTime todayDateTime = LocalDateTime.now();
-		DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
-		String formattedTodayDateTime = formatter.format(todayDateTime);
-		System.out.println("Today is : " + formattedTodayDateTime);
-
-		String todayDateTimeUKLocaleFormatted = formatter.withLocale(Locale.UK).format(todayDateTime);
-		System.out.println("Today is (UK Locale): " + todayDateTimeUKLocaleFormatted);
 
 	}
 }

@@ -1,4 +1,4 @@
-package org.gft.learning.newdateapi.templates;
+package org.learning.newdateapi.templates;
 
 import java.util.Calendar;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package org.gft.learning.newdateapi.templates;
+package org.learning.newdateapi.templates;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

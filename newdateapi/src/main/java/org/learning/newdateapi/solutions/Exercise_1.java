@@ -1,5 +1,6 @@
-package org.gft.learning.newdateapi.templates;
+package org.learning.newdateapi.solutions;
 
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -27,8 +28,11 @@ public class Exercise_1 {
 		System.out.println("Your Date of birth is : " + dateOfBirth);
 	}
 
-	// TODO
-	private static void newAPI() {		
+	private static void newAPI() {
+		System.out.println("\nNew Date and Time API");
+		LocalDate dateOfBirth = LocalDate.of(1990, 8, 2);
+
+		System.out.println("Your Date of birth is : " + dateOfBirth);
 
 	}
 }
